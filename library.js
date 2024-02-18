@@ -41,3 +41,25 @@ newBook.addEventListener("click",()=>{
     let author=prompt("Please state the author of the book");
     addBookToLibrary(name,author);
 });
+let newBook2 = document.getElementById("newBook2");
+let dialog = document.getElementById("addBook");
+newBook2.addEventListener("click",()=>{
+    dialog.showModal();
+})
+let submit = document.getElementById("submitButton");
+submit.addEventListener("click",(event)=>{
+    event.preventDefault();
+    let bookName=document.getElementById("bookNameInput").value;
+    let authorName=document.getElementById("authorNameInput").value;
+    addBookToLibrary(bookName,authorName);
+    dialog.close();
+})
+
+let cancel=document.getElementById("cancelButton");
+cancel.addEventListener("click",()=>{
+    let bookName=document.getElementById("bookNameInput")
+    let authorName=document.getElementById("authorNameInput")
+    authorName.value=''
+    bookName.value=''
+    dialog.close();
+})

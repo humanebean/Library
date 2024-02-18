@@ -9,9 +9,19 @@
 </head>
 <body>
     <button id="newBook">New Book</button>
+    <button id="newBook2">New Book2</button>
     <dialog id="addBook">
         <form>
-            
+            <label for="Name" id="bookName">
+                Book Name:
+                <input type="text" id="bookNameInput"/>
+            </label>
+            <label for="Name" id="authorName">
+                Author Name:
+                <input type="text" id="authorNameInput"/>
+            </label>
+            <button id="cancelButton" type="button">Cancel</button>
+            <button id="submitButton" type="submit">Add Book</button>
         </form>
     </dialog>
     <div id="cards">
