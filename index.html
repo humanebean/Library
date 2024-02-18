@@ -11,7 +11,7 @@
     <button id="newBook">New Book</button>
     <button id="newBook2">New Book2</button>
     <dialog id="addBook">
-        <form>
+        <form id="myForm">
             <label for="Name" id="bookName">
                 Book Name:
                 <input type="text" id="bookNameInput"/>
@@ -20,12 +20,18 @@
                 Author Name:
                 <input type="text" id="authorNameInput"/>
             </label>
+            <label for="Number" id="pageCount">
+                Page Count:
+                <input type="number" id="pageCountInput"/>
+            </label>
             <button id="cancelButton" type="button">Cancel</button>
             <button id="submitButton" type="submit">Add Book</button>
         </form>
     </dialog>
-    <div id="cards">
+    <div id="container">
+        <div id="cards">
 
+        </div>
     </div>
 </body>
 </html>

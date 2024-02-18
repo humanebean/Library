@@ -1,8 +1,28 @@
 #card{
     display: flex;
     background-color: beige;
-    max-width: 200px;
+    min-width: 200px;
     min-height: 200px;
     justify-content: center;
     align-items:center;
+    position: relative;
+}
+
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vw;
+    white-space:pre-wrap;
+    
+}
+
+#closeButton{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#checkBoxContainer{
+    position: absolute;
+    top: 0px;
 }
