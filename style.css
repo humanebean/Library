@@ -1,11 +1,19 @@
+body{
+    background-color: rgb(18, 17, 15);
+}
+#newBook2{
+    margin-bottom: 20px;
+}
 #card{
     display: flex;
-    background-color: beige;
+    background-color: rgb(219, 210, 198);
     min-width: 200px;
     min-height: 200px;
     justify-content: center;
     align-items:center;
     position: relative;
+    padding: 10px;
+    border-radius: 25px;
 }
 
 #cards{
@@ -13,6 +21,8 @@
     flex-wrap: wrap;
     gap: 5vw;
     white-space:pre-wrap;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -20,6 +30,7 @@
     position: absolute;
     top: 0px;
     right: 0px;
+    border-radius: 5px;
 }
 
 #checkBoxContainer{
@@ -33,6 +44,8 @@ input:checked +label {
     color: rgb(42, 148, 10);
     border: dotted rgba(36, 128, 0, 0.228);
     background-color: rgba(155, 255, 155, 0.338);
+    font-weight:bolder;
+    font-size: x-large;
     
   }
   
