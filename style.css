@@ -1,0 +1,8 @@
+#card{
+    display: flex;
+    background-color: beige;
+    max-width: 200px;
+    min-height: 200px;
+    justify-content: center;
+    align-items:center;
+}
