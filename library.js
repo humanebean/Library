@@ -49,12 +49,7 @@ function displayCards(){
     
 }
 
-let newBook = document.getElementById("newBook");
-newBook.addEventListener("click",()=>{
-    let name=prompt("Please state the name of the book");
-    let author=prompt("Please state the author of the book");
-    addBookToLibrary(name,author);
-});
+
 let newBook2 = document.getElementById("newBook2");
 let dialog = document.getElementById("addBook");
 newBook2.addEventListener("click",()=>{
