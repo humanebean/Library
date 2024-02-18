@@ -21,11 +21,10 @@ function addBookToLibrary(name, author,pageCount){
     checkboxContainer.id="checkBoxContainer";
     let read=document.createElement("input");
     read.type="checkbox";
-    read.id="slider";
+    read.id="check";
     checkboxContainer.append(read);
     let readLabel=document.createElement("label");
     readLabel.textContent="Finished";
-    readLabel.id="slider";
     checkboxContainer.append(readLabel);
 
     

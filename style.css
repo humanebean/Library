@@ -26,3 +26,13 @@
     position: absolute;
     top: 0px;
 }
+input[type='checkbox']{
+    accent-color: green;
+}
+input:checked +label {
+    color: rgb(42, 148, 10);
+    border: dotted rgba(36, 128, 0, 0.228);
+    background-color: rgba(155, 255, 155, 0.338);
+    
+  }
+  
